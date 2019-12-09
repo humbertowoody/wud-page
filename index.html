@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="WUD es una empresa de mobiliario inteligente y modular ubicada en México"
+    />
+    <meta name="author" content="WUD México" />
+
+    <title>WUD</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom Fonts -->
+    <link
+      href="vendor/fontawesome-free/css/all.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="vendor/simple-line-icons/css/simple-line-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.min.css" rel="stylesheet" />
+  </head>
+
+  <body id="page-top">
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml: true,
+          version: "v5.0"
+        });
+      };
+
+      (function(d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, "script", "facebook-jssdk");
+    </script>
+
+    <!-- Your customer chat code -->
+    <div
+      class="fb-customerchat"
+      attribution="setup_tool"
+      page_id="108207747335027"
+      logged_in_greeting="¡Hola! ¿En qué te podemos ayudar?"
+      logged_out_greeting="¡Hola! ¿En qué te podemos ayudar?"
+    ></div>
+
+    <!-- Navigation -->
+    <a class="menu-toggle rounded" href="#">
+      <i class="fas fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+          <a class="js-scroll-trigger" href="#page-top">WUD</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#page-top">Inicio</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#about">Acerca de</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#services">Nuestros Objetivos</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#portfolio">Casos de Uso</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#contact">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead d-flex">
+      <div class="container text-center my-auto">
+        <h1 class="mb-1">WUD</h1>
+        <h3 class="mb-5">
+          <em>Diseña tu espacio.</em>
+        </h3>
+        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about"
+          >Conoce Más</a
+        >
+      </div>
+      <div class="overlay"></div>
+    </header>
+
+    <!-- About -->
+    <section class="content-section bg-light" id="about">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2>
+              Queremos acercar la fabricación digital a todo México
+            </h2>
+            <p class="lead mb-5">
+              Damos acceso a mobiliario de calidad, estético, accesible y ad hoc
+              con la era digital.
+            </p>
+            <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services"
+              >Nuestros Objetivos</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section
+      class="content-section bg-primary text-white text-center"
+      id="services"
+    >
+      <div class="container">
+        <div class="content-section-heading">
+          <h3 class="text-secondary mb-0">Nuestros Objetivos</h3>
+          <h2 class="mb-5">¿Qué queremos lograr en WUD?</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-like"></i>
+            </span>
+            <h4>
+              <strong>Accesible</strong>
+            </h4>
+            <p class="text-faded mb-0">Diseño al alcance de todos.</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-pencil"></i>
+            </span>
+            <h4>
+              <strong>Personalizado</strong>
+            </h4>
+            <p class="text-faded mb-0">Crea tu espacio.</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-screen-smartphone"></i>
+            </span>
+            <h4>
+              <strong>Digital</strong>
+            </h4>
+            <p class="text-faded mb-0">
+              De internautas para internautas
+              <i class="fas fa-heart"></i>
+              .
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-badge"></i>
+            </span>
+            <h4>
+              <strong>Calidad</strong>
+            </h4>
+            <p class="text-faded mb-0">
+              Todos nuestros diseños cuentan con la más alta calidad.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Callout -->
+    <section class="callout">
+      <div class="container text-center">
+        <h2 class="mx-auto mb-5">
+          ¡Queremos ver
+          <em>tu</em>
+          siguiente diseño!
+        </h2>
+        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#portfolio"
+          >Checa nuestros Casos de Uso</a
+        >
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="content-section" id="portfolio">
+      <div class="container">
+        <div class="content-section-heading text-center">
+          <h3 class="text-secondary mb-0">Casos de Uso</h3>
+          <h2 class="mb-5">Algunas de las creaciones usando WUD</h2>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Espacios Reducidos</h2>
+                  <p class="mb-0">
+                    <strong>WUD</strong> ayuda a optimizar espacios pequeños.
+                  </p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/espacio-reducido.jpg" alt="" />
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Ampliaciones</h2>
+                  <p class="mb-0">
+                    <strong>WUD</strong> es una excelente opción para añadir más
+                    espacios de organización que se adapta a tu mobiliario ya
+                    existente.
+                  </p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/ampliaciones.jpg" alt="" />
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Práctico</h2>
+                  <p class="mb-0">
+                    <strong>WUD</strong> es diseño <em>modular</em> y
+                    <em>configurable</em> para llevarlo a cualquier lugar.
+                  </p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/practico.jpg" alt="" />
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Remodelaciones</h2>
+                  <p class="mb-0">
+                    <strong>WUD</strong> es perfecto para remodelaciones dónde
+                    se busca tener un balance entre diseño y practicidad.
+                  </p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/remodelacion.jpg" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section id="contact" class="content-section bg-primary text-white">
+      <div class="container text-center">
+        <h2 class="mb-4">Contacto</h2>
+        <a href="mailto:wud@mauramorfinparra.com" class="btn btn-xl btn-dark"
+          >Mándanos un Correo</a
+        >
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+      <div class="container">
+        <ul class="list-inline mb-5">
+          <li class="list-inline-item">
+            <a
+              class="social-link rounded-circle text-white mr-3"
+              href="https://www.facebook.com/WUD-M%C3%A9xico-108207747335027/"
+            >
+              <i class="icon-social-facebook"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a
+              class="social-link rounded-circle text-white mr-3"
+              href="https://twitter.com/wudmexico"
+            >
+              <i class="icon-social-twitter"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a
+              class="social-link rounded-circle text-white mr-3"
+              href="https://instagram.com/wudmx"
+            >
+              <i class="icon-social-instagram"></i>
+            </a>
+          </li>
+        </ul>
+        <p class="text-muted small mb-0">Todos los Derechos &copy; WUD 2019</p>
+      </div>
+    </footer>
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/stylish-portfolio.min.js"></script>
+  </body>
+</html>
